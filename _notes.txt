@@ -1,0 +1,675 @@
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> 
+
+BREAK IE8 FOR SOME REASON 
+
+
+
+
+
+
+WORK INDIVIDUAL PAGES
+
+The scroller needs to be smaller, with copy underneath fitting to the width
+
+SERVICES
+
+Illustrative images need coloured background for each
+
+CONTACT
+
+Change submit button to red
+Add Google Map (not for go live)
+
+HEADER
+
+Stapline needs to be postioned beneath Axisweb Developments
+Contact buttons rejigged to fit as appropriate
+
+
+FOOTER
+
+Increase depth of red seperator line
+Split content into columns rather than centered
+
+
+OTHER INFO
+
+Need to include Google Analytics
+Update copy in line with recent amends from Sheila/Mark
+Produce additional imagery for WORK section
+
+Let me know if there's anything I've missed.
+
+Thanks,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+        <div class="vcard">
+          <h3 class="fn org">Axisweb Developments</h3>
+          <p class="adr">
+            <span class="street-address">
+              Axis <br>
+              Studio 17/18 <br>
+              46 The Calls
+            </span>
+            <span class="locality">Leeds</span>. 
+            <span class="postal-code">LS2 7EY</span><br>
+            <span class="country-name">United Kingdom</span>
+          </p>
+          <p>
+            <a class="email" href="mailto:awd@axisweb.org">awd@axisweb.org</a><br>
+            <span class="tel">+44 (0)113 242 9830</span><br>
+            <a class="download-vcard" href="#" title="vCard file for Axisweb Developments Ltd.">Download our vCard</a>
+            
+          </p>
+        </div>
+
+
+        <div class="vcard">
+          <a class="fn org url" href="http://www.commerce.net/">CommerceNet</a>
+          <div class="adr">
+            <span class="type">Work</span>:
+            <div class="street-address">169 University Avenue</div>
+            <span class="locality">Palo Alto</span>,  
+            <abbr class="region" title="California">CA</abbr>&nbsp;&nbsp;
+            <span class="postal-code">94301</span>
+            <div class="country-name">USA</div>
+          </div>
+          <div class="tel">
+           <span class="type">Work</span> +1-650-289-4040
+          </div>
+          <div class="tel">
+            <span class="type">Fax</span> +1-650-289-4041
+          </div>
+          <div>Email: 
+           <span class="email">info@commerce.net</span>
+          </div>
+        </div> -->
+
+
+
+
+
+
+
+<!-- href="http://h2vx.com/vcf/referer ???-->
+
+
+4 Homepage directions
+
+
+
+
+
+
+
+
+/* Large desktop */
+
+@media (min-width: 1200px) { ... }
+
+
+
+/* Portrait tablet to landscape and desktop */
+
+@media (min-width: 768px) and (max-width: 979px) { ... }
+
+
+
+
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 767px) { ... }
+
+/* Landscape phones and down */
+
+@media (max-width: 480px) { ... }
+
+
+
+
+
+
+
+
+
+
+
+
+##################################
+
+Niels Schrader
+http://www.a-g-i.org/member-work/work/590
+Dutch Design Database, exhibition design for Graphic Design Museum, Breda (NL). View of the main exhibition hall. – Photo by Tim Eshuis
+
+
+####################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Where Does Google Chrome Install Itself?
+In Windows XP Google Chrome will be installed in C:\Documents and Settings\UserName\Local Settings\Application Data\Google\Chrome\ directory. In Windows Vista Google Chrome will be installed in C:\Users\UserName\AppData\Local\Google\Chrome\ directory.
+
+
+Read more at http://techie-buzz.com/tips-and-tricks/where-does-google-chrome-install-itself.html#hOqZoHTmluaSm0Ow.99 
+
+
+
+a digital agency for the arts
+
+
+Our team of art, technology and strategic specialists work with people and organisations in the arts, helping them achieve success using digital solutions.
+
+
+-------------
+
+The best slogans have one thing in common . . . they are all 7 words or less!
+
+
+
+"Creating ideas and building brands that truly matter to people"
+
+
+The disruption agency
+
+Creating strong, provocative relationships between good companies and their customers
+
+Contagious ideas
+
+A brand’s best friend
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+display driver has stopped working 
+
+
+
+design theory meeting - modular scale
+Typography   
+
+
+
+the design comes out of working with the content
+
+the more content you have to play around with the easier it is to design the structure 
+
+
+
+Timesheets - Billable - pick damiens brains
+
+Combine with git hub - proof of when things uploaded. 
+/* £iPad specific styles / scripts ------------------------------------
+
+if ( (navigator.userAgent.indexOf('iPad') != -1) ) {
+  
+  //window.onresize = function() {
+    jQuery(document).ready(function() {
+    
+      if (document.documentElement.clientWidth < 900) {
+          jQuery('#menu-main li ul li').css('display','none');
+          jQuery('#access li:nth-last-child(-n+2)').css('display','none');
+      } 
+      
+      if (document.documentElement.clientWidth > 900) {
+          jQuery('#access li:nth-last-child(-n+2)').css('display','block');
+      } 
+    
+    }); // End Doc Ready -----
+    
+  //} // End Resize  -----
+  
+} // End User Agent -----
+
+*/
+
+
+67.448  4.216
+50.581  3.161
+37.935  2.371
+28.448  1.778
+21.336  1.334
+16.000  1     
+12.000  0.75
+8.999 0.562 
+
+
+<!--
+  <div class="row">
+  <div class="span4">
+  <ul>
+  <li>Axis, Studio 17/18</li>
+  <li>46 The Calls</li>
+  <li>LEEDS LS2 7EY</li>
+  <li>United Kingdom</li>
+  <li>T 0113 242 9830</li>
+  <li>Office opening hours Monday-Friday 9.00-17.00</li>
+  </ul>
+  </div>
+
+  <div class="span4">
+  <ul>
+  <li><strong>Email</strong> <a href="mailto:info@axisweb.org">info@axisweb.org</a></li>
+
+  <li><a href="#">Xxxxx</a></li>
+  <li><a href="#">Xxxxx</a></li>
+  </ul>
+  </div>
+
+  <div class="span4">
+  <ul>
+  <li><a href="#">Xxxxx</a></li>
+  <li><a href="#">Xxxxx</a></li>
+  <li><a href="#">Xxxxx</a></li>
+  <li><a href="#">Xxxxx</a></li>
+  <li><a href="#">Xxxxx</a></li>
+  </ul>
+  </div>
+  </div> 
+  <li><a href="http://www.facebook.com/axisweb1">Facebook</a></li>
+  <li><a href="#"><a href="http://www.twitter.com/axisweb">Twitter</a></a></li> 
+-->
+
+find the sweet spot of the type - sometimes on a computer it might look really good at 16px but not at 15 
+
+
+typeface has a meaning an emotion
+from the keywords of the meeting - adjectives -  use these to find the typeface most appropriate
+
+look hard a the typeface, theme / style can be extended outwards, does it have rounded corners - then use rounded corners on the boxes ? 
+line thickness, tone 
+
+start with the body copy - this sets the tone
+heading, captions, titles etc - these set the personality 
+
+
+
+modular scale 
+
+2 strands 
+
+1 e.g. optimum font size for body copy e.g. 16 px
+
+44 px for mobile buttons 
+
+Old Bootstrap FOnts sizez---------------
+
+// h1 { font-size: 36px; line-height: 40px; }
+// h2 { font-size: 30px; line-height: 40px; }
+// h3 { font-size: 24px; line-height: 40px; }
+// h4 { font-size: 18px; line-height: 20px; }
+// h5 { font-size: 14px; line-height: 20px; }
+// h6 { font-size: 12px; line-height: 20px; }
+
+// h1 small { font-size: 24px; }
+// h2 small { font-size: 18px; }
+// h3 small { font-size: 14px; }
+// h4 small { font-size: 14px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  UA-3645291-8
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'xxxxxxx']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+-->
+
+<!-- Le fav and touch icons
+<link rel="shortcut icon" href="../assets/ico/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+-->
+
+
+
+
+
+
+Bootstrap is really a collection of tools to handle different aspects of rapid prototyping. I think you can do better by building your own collection out of the best tool in each area. In my mind, that's exactly what Compass is for. I can stop using massive frameworks, and start using modular plugins. Here's my go-to plugins for rapid prototyping. 
+
+- Susy (grids)
+- Compass (reset, css3, vertical rhythms)
+- Modular-Scale (sizes)
+- Solarized (colors)
+- Sassy-Buttons (buttons)
+- Breakpoint (media-queries)
+- Animate (animations)
+
+The great part is I can modify the stack depending on the project. I rarely use all 7, and I occasionally add in something like Compass-CSS-Arrow when I need it. It's hard to build a css toolkit, which is why things like bootstrap exist. But it's easy to build a Compass toolkit. Best of all, these plugins don't cut corners. Bootstrap cares more about your alpha than it does about your long-term goals. I'd rather use tools that get me a quick alpha AND keep working for me through the entire life of the project.
+
+
+
+.navbar .brand {
+  float: left;
+  display: block;
+  padding: 0;
+  margin:1.778rem 0 1.778rem 0px; 
+  //font-size: 20px;
+  //font-weight: 200;
+  color: $navbarBrandColor;
+  //text-shadow: 0 1px 0 $navbarBackgroundHighlight;
+  
+  h1, h2 {
+    display:inline-block;
+    font-size:1.778rem;
+    line-height:0;
+    //margin: 1.778rem 0 1.778rem 0 ;
+    }
+    h2 {font-weight:400;}
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  
+
+  h1 {
+    span {color:$grayDark;}
+  }
+  ul {
+    //margin: 1.778rem 0 0 0;
+  }
+  li {
+    list-style:none;
+    margin: 0 1.778rem 0 0 ;
+    line-height: 0;
+  }
+
+}
+
+
+
+http://awd.axisweb.org/index2.php
+
+http://twitter.github.com/bootstrap/index.html
+
+
+http://320press.com/wpbs/
+
+http://www.tictocfamily.com/
+http://www.collectivelondon.com/
+http://www.catchdigital.com/
+
+
+
+Content ------------------
+
+Our brand
+
+Axisweb Developments
+A digital agency for the arts
+
+HOME PAGE
+
+Axisweb Developments is a digital agency for the arts.  Our team of art, technology and strategic specialists work with people and organisations in the arts, helping them achieve success using digital solutions.
+
+Because we’re part of the arts sector, we understand how it works. We also know that arts budgets are often small!
+
+We hope you enjoy looking at some of the things we can offer. And please get in
+touch if you’d like to know more.
+
+Flippers on the home page
+
+Strategy
+clear thinking in a fast changing digital world
+Web
+from microsite to a socially integrated digital platform
+Mobile
+developing a “mobile” approach
+Film
+films that engage, inform, provoke and inspire
+Training
+helping understand the nuts and bolts of digital
+Interactive
+ beyond the desktop, other digital stuff
+
+
+
+SERVICES 
+
+We work across a broad range of digital disciplines to produce solutions that engage your audience and ultimately connects them with you.
+
+Every project, big or small goes through our responsive design process: discovery, design, development, delivery and review.  At the core of our approach is collaboration and ensuring what we deliver is right for you.
+
+Strategy
+“if you build it they will come” - doesn’t really work, but many still do it!
+
+We offer help and advice and try to bring clear thinking in a fast changing digital world.  Digital strategy is about understanding how all digital elements such as website, social media, search engine optimisation, digital marketing - work together for a single purpose. 
+
+Our role is to find solutions and uncover opportunities that will help achieve your goals. 
+
+Web
+Whether you’re after a small microsite or a socially integrated digital platform, we can take on the whole process from concept creation , information architecture (IA), user experience (UX), design and build.
+
+We work closely with you to understand your needs and select the most appropriate (and cost effective) solution and system from open source to off-the-shelf to bespoke.
+
+Mobile
+Welcome to the mobile revolution, well to be exact we have been here a few years now!
+
+We can help you develop a “mobile” approach and understand better the context and consumption patterns of your audience.  We believe mobile should deliver a great experience for mobile users.  We can create you a mobile solution be it a website or an App, and would ensure the solution adds value to your proposition.
+
+Films
+Film is a powerful medium which can engage, inform, provoke and inspire.
+
+We provide filmmaking and digital video marketing solutions.  With our own filmmaking team we can offer a range of solutions covering concept, production, post production and viral video services.  
+
+We would work closely with you, offering bespoke solutions for each project.  Whether it's a short two minute film or a series of more in-depth case studies. We use the latest filmmaking technology including state of the art HDLSR cameras that shoot Full HD footage, providing rich, 'filmic' visuals that ensures your project stands out.
+
+Training
+One of our goals is to help people in the arts use digital to transform and expand their offer.    We believe if people in the arts understand the nuts and bolts of digital, they will have better conversations and make better decisions as a result.
+
+We cover a range of topics including:
+Understanding your audience
+Planning your website
+Optimising your website
+Tracking your success
+Writing for the web
+Creating rich media
+Social media
+
+Our workshops have been designed for individuals and organisations in the arts, in fact anybody who is interested in developing digital solutions to better support their business aims and artistic programme.
+
+Interactive
+
+
+
+WORK
+Here’s a selection of our work.  And please get in touch if you’d like to know more.
+
+Filters: View all / Website / Mobile / Film / Training
+
+ABOUT US
+We are unique, in that we are a digital agency for the arts.  
+
+A brief history...
+Axisweb (our parent) was founded in 1991 and is the leading digital platform for practising artists in the UK.  For 21 years, we have been involved in developing digital solutions for artists and other organisations in the arts.   We have always used digital, in the 1990s we pioneered image reproduction tools, informing image data standards, CD-ROMs, in 2000 we created a virtual gallery space and then moved on to building microsites, campaign sites, event listing websites and most recently iPhone Apps.
+
+Due to the requests from other organisations, Axisweb formed a trading subsidiary to deliver digital solutions to the arts.  Any profits made are gift-aided back to our parent.
+
+
+What we are about...
+Our aim is to provide digital leadership to the art sector.  We do this be continuing to support other organisations in creating and delivering new digital solutions aimed at widening participation in the arts.  
+
+We are uniquely placed, as our team encompasses coders, designers, strategists, artists, and art professionals.  We bridge the divide between art and digital technology.
+
+Find out more...
+We like to talk.  If you’d like to talk through your project or chat about how we can help get in touch:  
+
+t: +44 (0) 0113 242 9830
+e: awd@axisweb.org
+
+Important information...
+Axis Web Developments is a private company limited by shares registered company (No. 05545591), of which is a wholly owned subsidiary of Axisweb a registered charity (No. 1002841) and registered company (02595018).
+
+
+
+CONTACT US
+We live in Leeds
+
+Studio 17/18
+46 The Calls
+Leeds
+West Yorkshire
+LS2 7EY
+
+t: +44 (0) 0113 242 9830
+
+e: awd@axisweb.org
+
+
+Contact form
+Name
+email
+phone
+message
+
+
+HEADER
+Get in touch
+e: ?@axisweb.org
+t: +44 (0) 0113 242 9830
+FOOTER
+
+Get in touch
+e: ?@axisweb.org
+t: +44 (0) 0113 242 9830
+
+Studio 17/18
+46 The Calls
+Leeds
+West Yorkshire
+LS2 7EY
+
+In a rush?
+Download info about us to read later
+
+Download PDF
+
+
+© 2012 Axisweb Developments.  All Rights Reserved.  Registered in England and Walses Company No. 05545591
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

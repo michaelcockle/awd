@@ -1,0 +1,235 @@
+h1, h2, h3, h4, h5, h6 { 
+    font-family: 'Droid Serif', Georgia, serif; font-weight: 700;
+    small {
+        font-weight: 400;
+    }
+}
+
+h1 {   }
+// h2 {  @include adjust-font-size-to(36px); }
+// h2 {  @include adjust-font-size-to(28px); }
+
+
+body {
+    font-family: $sansFontFamily;  
+    color: $grayDark;
+}
+
+.slides li > h2 {
+  //line-height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+h2.strapline {
+  clear: both;
+  color:$purpleDark;
+  color: $grayDark;
+  @include adjust-font-size-to(28px, 1.6);
+
+  @media (max-width: 767px) {
+    // @include establish-baseline;
+    @include adjust-font-size-to(22px, 1.2);
+    // @include adjust-leading-to(1.4, 24px);
+    // color:$red;
+  }
+
+  // @media (min-width: 1200px) {
+  //   @include adjust-font-size-to(34px);
+  // }
+
+  // @media (max-width: 979px) {
+  //   @include adjust-font-size-to(24px, 1);
+  // }
+
+
+  @media (max-width: 480px) {
+    @include adjust-font-size-to(16px, 1);
+  }
+
+}
+
+// h2.str2 {color: lighten($grayLight, 10%);}
+
+.page-index9 h2.strapline, .page-index10 h2.strapline {
+  @include leader(1);
+  @include trailer(1);
+}
+
+.page-index-colour-slider h2.strapline {
+  @include trailer(0);
+}
+
+
+
+
+
+
+.page-work h3 {
+  @include adjust-font-size-to(22px);
+  @include margin-leader(0);
+
+  //@include padding-leader(0);
+  //    @include trailer($lines: 1, $font-size: $base-font-size, $property: margin);
+}
+.page-work h5 {
+  @include adjust-font-size-to(16px);
+  @include margin-leader(0);
+  @include margin-trailer(0);
+}
+
+.page-services h4 {
+  @include margin-leader(0);
+  color: $RothkoDark;
+  //@include margin-trailer(0);
+}
+
+h4 span.call-out {
+  display: inline-block;
+  // padding:1em;
+  @include margin-leader(.5);
+  @include margin-trailer(.5);
+  //margin:1em;
+  color: $redDark;
+  font-family: $sansFontFamily;
+  text-align: center;
+  //width: 100%;
+  padding-left:2em;
+}
+
+
+
+
+.full-text {
+  h3 {
+    padding:0 5%;
+  }
+  p {
+    padding:0 15%;
+  }
+
+}
+
+// Body text -------------------------Normal 400 Italic
+
+
+.projects {
+  h1 {
+    @include adjust-font-size-to(24px);
+    @include leader(0.5);
+    @include trailer(0);
+  }
+  h2 {
+    @include adjust-font-size-to(18px, 1);
+    color: $gray;
+    font-family: $sansFontFamily;
+    font-weight: normal;
+  }
+}
+
+
+.page-index .slides li {
+  h2 {
+      @include leader(1);
+      // font-family: $sansFontFamily;
+      }
+  p {
+    @include leader(1);
+    text-align: left;
+    font-weight: normal;
+    }
+}
+  // override
+  // margin: .5em auto 0;
+  // padding: .5em .5em .5em .5em;
+
+
+
+.more {
+    @include trailer(2);
+    text-align:right;
+    // border-bottom: solid 1px #ccc;
+}
+
+
+
+blockquote {
+    font-family: 'Droid Serif', Georgia, serif; font-weight: 400; font-style:italic;
+    cite {
+      background-image: url("../img/quote-attribute.png");
+      background-repeat: no-repeat; 
+      // width: 475px; 
+      // height:15px; 
+      display:block;
+      @include leader($lines: 1, $font-size: $base-font-size, $property: padding);
+      @include trailer($lines: 1, $font-size: $base-font-size, $property: padding);
+        a {
+          // display: block;
+          margin-bottom: 1.5em;
+        }
+    }
+    h5 {
+      width: 60px; 
+      height: 18px; 
+      display: block; 
+      background-repeat: no-repeat; 
+      background-image: url("../img/quotes.png");
+      text-indent: -9999px;
+    }
+
+}
+
+
+
+
+
+
+// Emphasis & misc -------------------------
+
+small {
+  font-size: 77.8%; // Ex: 14px base font * 85% = about 12px
+}
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+
+
+
+// Lists --------------------------------------------------
+
+// Unordered and Ordered lists
+ul, ol {
+  padding: 0;
+  margin: 0 0 $baseLineHeight / 2 25px;
+}
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+li {
+  line-height: $baseLineHeight;
+  list-style: none;
+}
+ul.unstyled, ol.unstyled {
+  margin-left: 0;
+  list-style: none;
+}
+
+
+
+// mc ----------------------------  
+
+// Typography ------------------------------------------
+
+input, textarea, .uneditable-input {
+    width: 100% !important;
+}
+
+.thumbGrid p {
+  text-align:center;
+}
+
+
+

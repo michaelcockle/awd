@@ -1,0 +1,73 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+
+  <div class="navbar-inner">
+    <div class="container">
+        
+        <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        
+        <header class="span12 brand">
+            <a href="/index.php">
+                <h1>Axisweb <span>Developments</span></h1>
+                <h2>a&nbsp;digital&nbsp;agency for&nbsp;the&nbsp;arts</h2>
+            </a>
+        </header> 
+        
+        <div id="main-nav" class="nav-collapse subnav-collapse">
+            <ul class="nav">
+                
+            <!-- change index.php to / for live site -->
+
+                <li <?php if($page == 'index') echo 'class="active"'; ?> ><a href="index.php">Home</a></li> 
+                <li <?php if($page == 'about') echo 'class="active"'; ?> ><a href="about.php">About Us</a>
+                <li id="work" <?php if($page == 'work') echo 'class="active"'; ?> ><a href="work.php">Work</a></li>
+                <li <?php if($page == 'services') echo 'class="active"'; ?> ><a href="services.php?page-state=0">Services</a></li>
+                <li id="contact-us" <?php if($page == 'contact') echo 'class="active"'; ?> ><a href="contact.php">Contact Us</a></li>
+                <li id="quicklinks" class="dropdown nav-drop">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+
+                        <li class="nav-header">Our Projects</li>
+                        <li class="nav-header">Web</li>
+                        <li><a href="/project-cane-web.php">Contemporary Art North East</a></li>
+                        <li><a href="/project-dig-yorkshire.php">Dig Yorkshire</a></li>
+                        <li><a href="/project-all-points-north.php">All Points North</a></li>
+                        <li><a href="/project-ways-of-looking.php">Ways of Looking</a></li>
+                        <li><a href="/project-art-in-yorkshire.php">Art in Yorkshire</a></li>
+                        <li><a href="/project-photostore.php">Photostore</a></li>
+                        <li><a href="/project-scene-central.php">Scene Central</a></li>
+
+                        <li class="divider"></li>
+
+                        <li class="nav-header">Film</li>
+
+                        <li><a href="project-own-art-films.php">Own Art films</a></li>
+                        <li><a href="project-mark-houton.php">Mark Houghton Interview</a></li>
+                        <li><a href="project-meet-the-collectors.php">Meet the Collectors</a></li>
+
+                        <li class="divider"></li>
+
+                        <li class="nav-header">Training</li>
+
+                        <li><a href="project-contemporary-art-north-east-workshop.php">Value added workshop </a></li>
+                        <li class="divider"></li>
+                        
+                        <li class="nav-header">Interactive</li>
+                        <li><a href="project-great-ormand-street.php">Great Ormond Street Hospital</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <ul class="awd-icons">
+            <li><!-- <i class="mail"></i> --> <strong>e:</strong> <?php include "inc/email.html"; ?></li>
+            <li><!-- <i class="tel"></i> --> <strong>t:</strong> <a href="tel:01132429830">Call +44 (0)113 242 9830</a></li>
+        </ul> 
+    </div>
+  </div>
+</nav>
+
+

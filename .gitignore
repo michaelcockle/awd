@@ -1,0 +1,12 @@
+.DS_store
+*.zip
+*.gz
+log/*.log
+log/*.log[0-9]
+*.sass-cache*
+.sass-cache
+wp-content/
+boilerplate/
+awd.sublime-project
+awd.sublime-workspace
+sftp-config.json
