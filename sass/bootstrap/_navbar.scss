@@ -127,23 +127,48 @@ body.ie7 .navbar-inner {
   }
 }
 */
+.ir {
+  border:0;
+  font:0/0 a;
+  text-shadow:none;
+  color:transparent;
+  background-color: transparent;
+}
 
 
 .navbar .brand {
   float: left;
   display: block;
-  padding: 0;
-  margin:0; 
-  @include leader(1);
-  @include trailer(0.5);
-  color: $navbarBrandColor;
-  // text-shadow: 0 1px 0 $navbarBackgroundHighlight;
+  margin: 1em 2em 0.5em 0;
   
+  // background: #ccc;
+  // padding: 0;
+  // margin:0; 
+
+
+  img {
+    // margin:0.5em;
+    // padding:0.5em;
+  }
+  // @include leader(1);
+  // @include trailer(0.5);
+  // color: $navbarBrandColor;
+  // width: 380px;
+  // height: 70px;
+  // background: url("../img/awd-logo.png");
+
+
   h1, h2 {
-    display:inline-block;
-    margin: 0 ;
+    // display:inline-block;
+    // margin: 0 ;
+    border:0;
+    font:0/0 a;
+    text-shadow:none;
+    color:transparent;
+    background-color: transparent;
     }
-      
+
+/*  
   h2 {
     font-weight:400;
     @include adjust-font-size-to(26px, 1.2);
@@ -177,7 +202,7 @@ body.ie7 .navbar-inner {
     h2 {  @include adjust-font-size-to(16px, 1);  }
     h1 {  @include adjust-font-size-to(18px, 1);  }
   }
-
+*/ 
 
 
   ul.the-icons {
@@ -344,9 +369,9 @@ body.ie7 .navbar-inner {
 .navbar-fixed-top {
   top: 0;
 }
-.navbar-fixed-top,
-.navbar-static-top {
+.navbar-fixed-top, .navbar-static-top {
   .navbar-inner {
+
     //@include box-shadow(#{inset 0 -1px 0 rgba(0,0,0,.1), 0 1px 10px rgba(0,0,0,.1)});
   }
 }

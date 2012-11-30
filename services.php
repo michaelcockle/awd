@@ -6,7 +6,7 @@ $page_state = $_GET['page-state'];
 include_once "inc/header.html";
 ?>
 
-<div class="container" data-slidenumber="<?php echo $page_state; ?>">
+<div id="services" class="container" data-slidenumber="<?php echo $page_state; ?>">
 	<div class="row-fluid">
 		<div class="span12">
 			<h2 class="strapline">We work across a broad range of digital disciplines to connect artists and arts organisations with audiences.</h2>

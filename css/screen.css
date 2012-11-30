@@ -3814,114 +3814,99 @@ body.ie7 .navbar-inner {
   }
 }
 */
-/* line 132, ../sass/bootstrap/_navbar.scss */
+/* line 130, ../sass/bootstrap/_navbar.scss */
+.ir {
+  border: 0;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  background-color: transparent;
+}
+
+/* line 139, ../sass/bootstrap/_navbar.scss */
 .navbar .brand {
   float: left;
   display: block;
-  padding: 0;
-  margin: 0;
-  margin-top: 1.5em;
-  margin-bottom: 0.75em;
-  color: #555555;
+  margin: 1em 2em 0.5em 0;
+  /*  
+    h2 {
+      font-weight:400;
+      @include adjust-font-size-to(26px, 1.2);
+      margin-top: 5px;
+  
+    }
+  
+    h1 {
+      @include adjust-font-size-to(28px, 1.2);
+      color: $red;
+      span {
+        color:$grayDark;
+        margin-right: 2px;
+      }
+    }
+    a h2 {
+      color: $grayLight;
+    }
+  
+    @media (max-width: 979px) {
+      h2 {  @include adjust-font-size-to(24px, 1.2);  }
+      h1 {  @include adjust-font-size-to(28px, 1.2);  }
+    }
+  
+    @media (max-width: 767px) {
+      h2 {  @include adjust-font-size-to(22px, 1.2);  }
+      h1 {  @include adjust-font-size-to(26px, 1.2);  }
+    }
+  
+    @media (max-width: 480px) {
+      h2 {  @include adjust-font-size-to(16px, 1);  }
+      h1 {  @include adjust-font-size-to(18px, 1);  }
+    }
+  */
 }
-/* line 142, ../sass/bootstrap/_navbar.scss */
+/* line 161, ../sass/bootstrap/_navbar.scss */
 .navbar .brand h1, .navbar .brand h2 {
-  display: inline-block;
-  margin: 0;
+  border: 0;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  background-color: transparent;
 }
-/* line 147, ../sass/bootstrap/_navbar.scss */
-.navbar .brand h2 {
-  font-weight: 400;
-  font-size: 1.625em;
-  line-height: 1.10769em;
-  margin-top: 5px;
-}
-/* line 154, ../sass/bootstrap/_navbar.scss */
-.navbar .brand h1 {
-  font-size: 1.75em;
-  line-height: 1.02857em;
-  color: #ff3c1e;
-}
-/* line 157, ../sass/bootstrap/_navbar.scss */
-.navbar .brand h1 span {
-  color: #41484e;
-  margin-right: 2px;
-}
-/* line 162, ../sass/bootstrap/_navbar.scss */
-.navbar .brand a h2 {
-  color: #999999;
-}
-@media (max-width: 979px) {
-  /* line 167, ../sass/bootstrap/_navbar.scss */
-  .navbar .brand h2 {
-    font-size: 1.5em;
-    line-height: 1.2em;
-  }
-  /* line 168, ../sass/bootstrap/_navbar.scss */
-  .navbar .brand h1 {
-    font-size: 1.75em;
-    line-height: 1.02857em;
-  }
-}
-@media (max-width: 767px) {
-  /* line 172, ../sass/bootstrap/_navbar.scss */
-  .navbar .brand h2 {
-    font-size: 1.375em;
-    line-height: 1.30909em;
-  }
-  /* line 173, ../sass/bootstrap/_navbar.scss */
-  .navbar .brand h1 {
-    font-size: 1.625em;
-    line-height: 1.10769em;
-  }
-}
-@media (max-width: 480px) {
-  /* line 177, ../sass/bootstrap/_navbar.scss */
-  .navbar .brand h2 {
-    font-size: 1em;
-    line-height: 1.5em;
-  }
-  /* line 178, ../sass/bootstrap/_navbar.scss */
-  .navbar .brand h1 {
-    font-size: 1.125em;
-    line-height: 1.33333em;
-  }
-}
-/* line 183, ../sass/bootstrap/_navbar.scss */
+/* line 208, ../sass/bootstrap/_navbar.scss */
 .navbar .brand ul.the-icons {
   margin: 0;
 }
 @media (max-width: 979px) {
-  /* line 183, ../sass/bootstrap/_navbar.scss */
+  /* line 208, ../sass/bootstrap/_navbar.scss */
   .navbar .brand ul.the-icons {
     float: left;
     margin-top: 1em;
     margin: 1em 0 0 0;
   }
 }
-/* line 190, ../sass/bootstrap/_navbar.scss */
+/* line 215, ../sass/bootstrap/_navbar.scss */
 .navbar .brand ul.the-icons li {
   list-style: none;
   margin: 0 20px 0 0;
   line-height: 0;
 }
 
-/* line 200, ../sass/bootstrap/_navbar.scss */
+/* line 225, ../sass/bootstrap/_navbar.scss */
 .navbar-text {
   margin-bottom: 0;
   line-height: 40px;
 }
 
-/* line 206, ../sass/bootstrap/_navbar.scss */
+/* line 231, ../sass/bootstrap/_navbar.scss */
 .navbar-link {
   color: #555555;
 }
-/* line 208, ../sass/bootstrap/_navbar.scss */
+/* line 233, ../sass/bootstrap/_navbar.scss */
 .navbar-link:hover {
   color: #41484e;
 }
 
-/* line 214, ../sass/bootstrap/_navbar.scss */
+/* line 239, ../sass/bootstrap/_navbar.scss */
 .navbar .divider-vertical {
   height: 40px;
   margin: 0 9px;
@@ -3929,20 +3914,20 @@ body.ie7 .navbar-inner {
   border-right: 1px solid white;
 }
 
-/* line 223, ../sass/bootstrap/_navbar.scss */
+/* line 248, ../sass/bootstrap/_navbar.scss */
 .navbar .btn,
 .navbar .btn-group {
   margin-top: 5px;
 }
 
-/* line 228, ../sass/bootstrap/_navbar.scss */
+/* line 253, ../sass/bootstrap/_navbar.scss */
 .navbar .btn-group .btn,
 .navbar .input-prepend .btn,
 .navbar .input-append .btn {
   margin-top: 0;
 }
 
-/* line 233, ../sass/bootstrap/_navbar.scss */
+/* line 258, ../sass/bootstrap/_navbar.scss */
 .navbar-form {
   margin-bottom: 0;
   *zoom: 1;
@@ -3957,46 +3942,46 @@ body.ie7 .navbar-inner {
 .navbar-form:after {
   clear: both;
 }
-/* line 239, ../sass/bootstrap/_navbar.scss */
+/* line 264, ../sass/bootstrap/_navbar.scss */
 .navbar-form input,
 .navbar-form select,
 .navbar-form .radio,
 .navbar-form .checkbox {
   margin-top: 5px;
 }
-/* line 244, ../sass/bootstrap/_navbar.scss */
+/* line 269, ../sass/bootstrap/_navbar.scss */
 .navbar-form input,
 .navbar-form select,
 .navbar-form .btn {
   display: inline-block;
   margin-bottom: 0;
 }
-/* line 250, ../sass/bootstrap/_navbar.scss */
+/* line 275, ../sass/bootstrap/_navbar.scss */
 .navbar-form input[type="image"],
 .navbar-form input[type="checkbox"],
 .navbar-form input[type="radio"] {
   margin-top: 3px;
 }
-/* line 254, ../sass/bootstrap/_navbar.scss */
+/* line 279, ../sass/bootstrap/_navbar.scss */
 .navbar-form .input-append,
 .navbar-form .input-prepend {
   margin-top: 6px;
   white-space: nowrap;
 }
-/* line 257, ../sass/bootstrap/_navbar.scss */
+/* line 282, ../sass/bootstrap/_navbar.scss */
 .navbar-form .input-append input,
 .navbar-form .input-prepend input {
   margin-top: 0;
 }
 
-/* line 264, ../sass/bootstrap/_navbar.scss */
+/* line 289, ../sass/bootstrap/_navbar.scss */
 .navbar-search {
   position: relative;
   float: left;
   margin-top: 5px;
   margin-bottom: 0;
 }
-/* line 269, ../sass/bootstrap/_navbar.scss */
+/* line 294, ../sass/bootstrap/_navbar.scss */
 .navbar-search .search-query {
   margin-bottom: 0;
   padding: 4px 14px;
@@ -4009,14 +3994,14 @@ body.ie7 .navbar-inner {
   border-radius: 15px;
 }
 
-/* line 281, ../sass/bootstrap/_navbar.scss */
+/* line 306, ../sass/bootstrap/_navbar.scss */
 .navbar-static-top {
   position: static;
   width: 100%;
   margin-bottom: 0;
 }
 
-/* line 295, ../sass/bootstrap/_navbar.scss */
+/* line 320, ../sass/bootstrap/_navbar.scss */
 .navbar-fixed-top, .navbar-fixed-bottom {
   position: fixed;
   right: 0;
@@ -4025,36 +4010,36 @@ body.ie7 .navbar-inner {
   margin-bottom: 0;
 }
 
-/* line 308, ../sass/bootstrap/_navbar.scss */
+/* line 333, ../sass/bootstrap/_navbar.scss */
 .navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
   padding-left: 0;
   padding-right: 0;
 }
 @media (max-width: 480px) {
-  /* line 308, ../sass/bootstrap/_navbar.scss */
+  /* line 333, ../sass/bootstrap/_navbar.scss */
   .navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
     padding-left: 20px;
   }
 }
 
-/* line 322, ../sass/bootstrap/_navbar.scss */
+/* line 347, ../sass/bootstrap/_navbar.scss */
 .navbar-static-top .container,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
   width: 940px;
 }
 
-/* line 344, ../sass/bootstrap/_navbar.scss */
+/* line 369, ../sass/bootstrap/_navbar.scss */
 .navbar-fixed-top {
   top: 0;
 }
 
-/* line 355, ../sass/bootstrap/_navbar.scss */
+/* line 380, ../sass/bootstrap/_navbar.scss */
 .navbar-fixed-bottom {
   bottom: 0;
 }
 
-/* line 367, ../sass/bootstrap/_navbar.scss */
+/* line 392, ../sass/bootstrap/_navbar.scss */
 .navbar .nav {
   position: relative;
   left: 0;
@@ -4064,23 +4049,23 @@ body.ie7 .navbar-inner {
   margin-bottom: 1.5em;
 }
 
-/* line 376, ../sass/bootstrap/_navbar.scss */
+/* line 401, ../sass/bootstrap/_navbar.scss */
 .navbar .nav.pull-right {
   float: right;
   margin-right: 0;
 }
 
-/* line 380, ../sass/bootstrap/_navbar.scss */
+/* line 405, ../sass/bootstrap/_navbar.scss */
 .navbar .nav > li {
   float: left;
 }
 
-/* line 384, ../sass/bootstrap/_navbar.scss */
+/* line 409, ../sass/bootstrap/_navbar.scss */
 body.ie7 nav, body.ie8 nav {
   margin-top: 0;
 }
 
-/* line 391, ../sass/bootstrap/_navbar.scss */
+/* line 416, ../sass/bootstrap/_navbar.scss */
 .navbar .nav > li > a {
   float: none;
   padding: 0.5em 1em 0.5em;
@@ -4088,12 +4073,12 @@ body.ie7 nav, body.ie8 nav {
   text-decoration: none;
 }
 
-/* line 400, ../sass/bootstrap/_navbar.scss */
+/* line 425, ../sass/bootstrap/_navbar.scss */
 .navbar .nav .dropdown-toggle .caret {
   margin-top: 8px;
 }
 
-/* line 406, ../sass/bootstrap/_navbar.scss */
+/* line 431, ../sass/bootstrap/_navbar.scss */
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
   background-color: transparent;
@@ -4101,7 +4086,7 @@ body.ie7 nav, body.ie8 nav {
   text-decoration: none;
 }
 
-/* line 418, ../sass/bootstrap/_navbar.scss */
+/* line 443, ../sass/bootstrap/_navbar.scss */
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
@@ -4113,7 +4098,7 @@ body.ie7 nav, body.ie8 nav {
   box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
 }
 
-/* line 427, ../sass/bootstrap/_navbar.scss */
+/* line 452, ../sass/bootstrap/_navbar.scss */
 .navbar .btn-navbar {
   display: none;
   float: right;
@@ -4147,7 +4132,7 @@ body.ie7 nav, body.ie8 nav {
   background-color: #cccccc \9;
 }
 
-/* line 436, ../sass/bootstrap/_navbar.scss */
+/* line 461, ../sass/bootstrap/_navbar.scss */
 .navbar .btn-navbar .icon-bar {
   display: block;
   width: 18px;
@@ -4158,12 +4143,12 @@ body.ie7 nav, body.ie8 nav {
   border-radius: 1px;
 }
 
-/* line 444, ../sass/bootstrap/_navbar.scss */
+/* line 469, ../sass/bootstrap/_navbar.scss */
 .btn-navbar .icon-bar + .icon-bar {
   margin-top: 3px;
 }
 
-/* line 455, ../sass/bootstrap/_navbar.scss */
+/* line 480, ../sass/bootstrap/_navbar.scss */
 .navbar .nav > li > .dropdown-menu:before {
   content: '';
   display: inline-block;
@@ -4175,7 +4160,7 @@ body.ie7 nav, body.ie8 nav {
   top: -7px;
   left: 9px;
 }
-/* line 466, ../sass/bootstrap/_navbar.scss */
+/* line 491, ../sass/bootstrap/_navbar.scss */
 .navbar .nav > li > .dropdown-menu:after {
   content: '';
   display: inline-block;
@@ -4187,7 +4172,7 @@ body.ie7 nav, body.ie8 nav {
   left: 10px;
 }
 
-/* line 479, ../sass/bootstrap/_navbar.scss */
+/* line 504, ../sass/bootstrap/_navbar.scss */
 .navbar-fixed-bottom .nav > li > .dropdown-menu:before {
   border-top: 7px solid #ccc;
   border-top-color: rgba(0, 0, 0, 0.2);
@@ -4195,7 +4180,7 @@ body.ie7 nav, body.ie8 nav {
   bottom: -7px;
   top: auto;
 }
-/* line 486, ../sass/bootstrap/_navbar.scss */
+/* line 511, ../sass/bootstrap/_navbar.scss */
 .navbar-fixed-bottom .nav > li > .dropdown-menu:after {
   border-top: 6px solid white;
   border-bottom: 0;
@@ -4203,7 +4188,7 @@ body.ie7 nav, body.ie8 nav {
   top: auto;
 }
 
-/* line 497, ../sass/bootstrap/_navbar.scss */
+/* line 522, ../sass/bootstrap/_navbar.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle,
 .navbar .nav li.dropdown.active > .dropdown-toggle,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle {
@@ -4211,13 +4196,13 @@ body.ie7 nav, body.ie8 nav {
   color: #555555;
 }
 
-/* line 501, ../sass/bootstrap/_navbar.scss */
+/* line 526, ../sass/bootstrap/_navbar.scss */
 .navbar .nav li.dropdown > .dropdown-toggle .caret {
   border-top-color: #555555;
   border-bottom-color: #555555;
 }
 
-/* line 507, ../sass/bootstrap/_navbar.scss */
+/* line 532, ../sass/bootstrap/_navbar.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle .caret,
 .navbar .nav li.dropdown.active > .dropdown-toggle .caret,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
@@ -4225,25 +4210,25 @@ body.ie7 nav, body.ie8 nav {
   border-bottom-color: #555555;
 }
 
-/* line 514, ../sass/bootstrap/_navbar.scss */
+/* line 539, ../sass/bootstrap/_navbar.scss */
 .navbar .pull-right > li > .dropdown-menu,
 .navbar .nav > li > .dropdown-menu.pull-right {
   left: auto;
   right: 0;
 }
-/* line 517, ../sass/bootstrap/_navbar.scss */
+/* line 542, ../sass/bootstrap/_navbar.scss */
 .navbar .pull-right > li > .dropdown-menu:before,
 .navbar .nav > li > .dropdown-menu.pull-right:before {
   left: auto;
   right: 12px;
 }
-/* line 521, ../sass/bootstrap/_navbar.scss */
+/* line 546, ../sass/bootstrap/_navbar.scss */
 .navbar .pull-right > li > .dropdown-menu:after,
 .navbar .nav > li > .dropdown-menu.pull-right:after {
   left: auto;
   right: 13px;
 }
-/* line 525, ../sass/bootstrap/_navbar.scss */
+/* line 550, ../sass/bootstrap/_navbar.scss */
 .navbar .pull-right > li > .dropdown-menu .dropdown-menu,
 .navbar .nav > li > .dropdown-menu.pull-right .dropdown-menu {
   left: auto;
@@ -4255,47 +4240,47 @@ body.ie7 nav, body.ie8 nav {
   border-radius: 6px 0 6px 6px;
 }
 
-/* line 547, ../sass/bootstrap/_navbar.scss */
+/* line 572, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .brand,
 .navbar-inverse .nav > li > a {
   color: #999999;
 }
-/* line 550, ../sass/bootstrap/_navbar.scss */
+/* line 575, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .brand:hover,
 .navbar-inverse .nav > li > a:hover {
   color: white;
 }
-/* line 556, ../sass/bootstrap/_navbar.scss */
+/* line 581, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .nav > li > a:focus,
 .navbar-inverse .nav > li > a:hover {
   background-color: transparent;
   color: white;
 }
-/* line 563, ../sass/bootstrap/_navbar.scss */
+/* line 588, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .nav .active > a,
 .navbar-inverse .nav .active > a:hover,
 .navbar-inverse .nav .active > a:focus {
   color: white;
   background-color: #111111;
 }
-/* line 569, ../sass/bootstrap/_navbar.scss */
+/* line 594, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-link {
   color: #999999;
 }
-/* line 571, ../sass/bootstrap/_navbar.scss */
+/* line 596, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-link:hover {
   color: white;
 }
-/* line 577, ../sass/bootstrap/_navbar.scss */
+/* line 602, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .divider-vertical {
   border-left-color: #111111;
   border-right-color: #222222;
 }
-/* line 584, ../sass/bootstrap/_navbar.scss */
+/* line 609, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .nav-drop {
   margin: 0 1em 0 1em;
 }
-/* line 590, ../sass/bootstrap/_navbar.scss */
+/* line 615, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
 .navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
 .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
@@ -4305,19 +4290,19 @@ body.ie7 nav, body.ie8 nav {
   border-radius: 3px;
   color: white;
 }
-/* line 595, ../sass/bootstrap/_navbar.scss */
+/* line 620, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
   border-top-color: #999999;
   border-bottom-color: #999999;
 }
-/* line 601, ../sass/bootstrap/_navbar.scss */
+/* line 626, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .nav li.dropdown.open > .dropdown-toggle .caret,
 .navbar-inverse .nav li.dropdown.active > .dropdown-toggle .caret,
 .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle .caret {
   border-top-color: white;
   border-bottom-color: white;
 }
-/* line 608, ../sass/bootstrap/_navbar.scss */
+/* line 633, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-search .search-query {
   color: white;
   background-color: #515151;
@@ -4342,7 +4327,7 @@ body.ie7 nav, body.ie8 nav {
 .navbar-inverse .navbar-search .search-query::-webkit-input-placeholder {
   color: #cccccc;
 }
-/* line 618, ../sass/bootstrap/_navbar.scss */
+/* line 643, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-search .search-query:focus, .navbar-inverse .navbar-search .search-query.focused {
   padding: 5px 15px;
   color: #41484e;
@@ -4353,7 +4338,7 @@ body.ie7 nav, body.ie8 nav {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
   outline: 0;
 }
-/* line 631, ../sass/bootstrap/_navbar.scss */
+/* line 656, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .btn-navbar {
   color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
@@ -4382,7 +4367,7 @@ body.ie7 nav, body.ie8 nav {
   background-color: black \9;
 }
 
-/* line 645, ../sass/bootstrap/_navbar.scss */
+/* line 670, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
   background: #ea1f00;
   -webkit-border-radius: 3px;
@@ -4390,12 +4375,12 @@ body.ie7 nav, body.ie8 nav {
   border-radius: 3px;
 }
 
-/* line 665, ../sass/bootstrap/_navbar.scss */
+/* line 690, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .brand:hover, .navbar-inverse .nav > li > a:hover {
   color: #41484e;
 }
 
-/* line 669, ../sass/bootstrap/_navbar.scss */
+/* line 694, ../sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-inner {
   background: #FFF;
   border-bottom: dotted 1px #FF3C1E;

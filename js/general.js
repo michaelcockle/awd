@@ -663,31 +663,31 @@ $(document).ready(function(){
 	/*	Service Slider Init ----------------------------*/
 
 // Set the slide number from the data attribute in services.php which gets it from the query string in the link in index
-var slideQuery = $('#content').data('slidenumber');
+var slideQuery = $('#services').data('slidenumber');
 
 	$(window).load(function(){
 	  $('#serviceSlider').flexslider({
-	  	namespace: "flex-", 
-	  	selector: ".slides > li",
-	    animation: "slide",
-	    easing: "swing",
-	    slideshow: false,
-	    animationLoop: true,
-	    slideshowSpeed: 7000,
-	    animationSpeed: 600,
-	    pauseOnAction: true,
-		pauseOnHover: true,
-		smoothHeight: true, /*Works well on android mobile to remove space created by longest content in slider*/
-		itemWidth: 0, 
-		itemMargin: 0,
-		minItems: 0,
-		maxItems: 0,
-	    controlNav: false,              
-		directionNav: false,
-	    pausePlay: false,
-	    startAt: slideQuery,
-	    start: function(slider){
-	      $('body').removeClass('loading');
+      namespace: "flex-", 
+      selector: ".slides > li",
+      animation: "slide",
+      easing: "swing",
+      slideshow: false,
+      animationLoop: true,
+      slideshowSpeed: 7000,
+      animationSpeed: 600,
+      pauseOnAction: true,
+      pauseOnHover: true,
+      smoothHeight: true,
+      itemWidth: 0, 
+      itemMargin: 0,
+      minItems: 0,
+      maxItems: 0,
+      controlNav: false,              
+      directionNav: false,
+      pausePlay: false,
+      startAt: slideQuery,
+      start: function(slider){
+      $('body').removeClass('loading');
 	    }
 	  });
 	});
