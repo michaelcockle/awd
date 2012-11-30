@@ -6,38 +6,35 @@ include_once "inc/header.html";
 ?>
 
 <div id="content" class="container">
-    <div class="row">
+    <section class="row">
         <div class="span12">
-                <h1><?php echo $page_title; ?></h1>
-                <h2>Web</h2>
-                <div class="imgSlider flexslider">
-                    <ul class="slides">
-                        <li>
-                            <img src="img/work/all-points-north.jpg" alt="All Points North">
+            <h1><?php echo $page_title; ?></h1>
+            <h2>Web</h2>
+            <div class="imgSlider flexslider">
+                <ul class="slides">
+                    <li>
+                        <img src="img/work/all-points-north.jpg" alt="All Points North">
+                    </li>
+                    
+                    <li>
+                        <img src="img/work/all-points-north-gallery-page.jpg" alt="All Points North Gallery Page">
                         </li>
-                        
-                        <li>
-                            <img src="img/work/all-points-north-gallery-page.jpg" alt="All Points North Gallery Page">
-                            </li>
-                        <li>
-                            <img src="img/work/all-points-north-about.jpg" alt="All Points North About Page">
-                        </li>
-                    </ul>
-                </div>
+                    <li>
+                        <img src="img/work/all-points-north-about.jpg" alt="All Points North About Page">
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</div>
+    </section>
 
-<div class="container project">
-    <div class="row">
+    <section class="row project">
         <div class="span12">
             <div class="row">
                 <div class="span6">
                     <h4>The Brief:</h4>
                     <p>Create a website to profile the strength of contemporary art events and festivals happening across the North of England during the autumn of 2011.</p>
-                    </div>
-                    <div class="span6">
-
+                </div>
+                <div class="span6">
                     <h4>What we did:</h4>
                     <p>All Points North (APN) was an initiative centred around six satellite festivals, exhibitions and prizes including the Turner Prize, New Contemporaries and the Northern Art Prize.</p>
                     <p>Our development window was only three weeks, to coincide with the opening of New Contemporaries in Sheffield.</p>
@@ -45,6 +42,6 @@ include_once "inc/header.html";
                 </div>                
             </div>
         </div>
-    </div>
-</div><!-- end container-->
+    </section>
+</div>
 <?php include_once "inc/footer.html"; ?>

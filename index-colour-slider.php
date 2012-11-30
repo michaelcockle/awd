@@ -7,7 +7,7 @@ include_once "inc/header.html";
 <div id="content" class="container">
     <div class="row"> 
         <div class="span12 ">
-            <?php include_once "inc/strapline.html"; ?> 
+            <h1>Color Slider</h1> 
         </div>
     </div>
 </div>

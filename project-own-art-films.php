@@ -5,51 +5,47 @@ $page_description = "";
 include_once "inc/header.html";
 ?>
 
-
-<div id="content" class="container">
-    <div class="row">
-        <div class="span12">
-                <h1><?php echo $page_title; ?></h1>
-                <!-- <h2>7 short films about collectors using Own Art</h2> -->
-
-                <div class="filmSlider flexslider">
-                    <ul class="slides">
-
-                        <li>
-                            <iframe src="http://player.vimeo.com/video/44808331"  frameborder="0"></iframe>
-                            <p>Axis interview John Broadbent</p>
-                        </li>
-                        <li>
-                            <iframe src="http://player.vimeo.com/video/44808322" frameborder="0"></iframe>
-                            <p>Axis interview Ian Murray</p>
-                        </li>
-                        <li>
-                            <iframe src="http://player.vimeo.com/video/45125898" frameborder="0"></iframe>
-                            <p>Axis interview Michael and Hilary Quick</p>
-                        </li>
-                        <li>
-                            <iframe src="http://player.vimeo.com/video/44808334" frameborder="0"></iframe>
-                            <p>Axis interview David Parkin May 2012</p>
-                        
-                        <li>
-                            <iframe src="http://player.vimeo.com/video/45125899" frameborder="0"></iframe>
-                            <p>Axis interview Jenny Wilson &amp; Gideon Seymour </p>
-                        </li>
-                        <li>
-                            <iframe src="http://player.vimeo.com/video/45123737" frameborder="0"></iframe>
-                            <p>Axis interview Daniel Khan at the Bluecoat Display Centre</p>
-                        </li>
-                        <li>
-                            <iframe src="http://player.vimeo.com/video/45125900" frameborder="0"></iframe>
-                            <p>Axis interview Jane Wilde &amp; Adrian Lear</p>
-                        </li>
-                    </ul>
-                </div>
-        </div>
-    </div>
-</div>
 <div class="container">
-    <div class="row">
+    <section class="row">
+        <div class="span12">
+            <h1><?php echo $page_title; ?></h1>
+            <div class="filmSlider flexslider">
+                <ul class="slides">
+
+                    <li>
+                        <iframe src="http://player.vimeo.com/video/44808331"  frameborder="0"></iframe>
+                        <p>Axis interview John Broadbent</p>
+                    </li>
+                    <li>
+                        <iframe src="http://player.vimeo.com/video/44808322" frameborder="0"></iframe>
+                        <p>Axis interview Ian Murray</p>
+                    </li>
+                    <li>
+                        <iframe src="http://player.vimeo.com/video/45125898" frameborder="0"></iframe>
+                        <p>Axis interview Michael and Hilary Quick</p>
+                    </li>
+                    <li>
+                        <iframe src="http://player.vimeo.com/video/44808334" frameborder="0"></iframe>
+                        <p>Axis interview David Parkin May 2012</p>
+                    
+                    <li>
+                        <iframe src="http://player.vimeo.com/video/45125899" frameborder="0"></iframe>
+                        <p>Axis interview Jenny Wilson &amp; Gideon Seymour </p>
+                    </li>
+                    <li>
+                        <iframe src="http://player.vimeo.com/video/45123737" frameborder="0"></iframe>
+                        <p>Axis interview Daniel Khan at the Bluecoat Display Centre</p>
+                    </li>
+                    <li>
+                        <iframe src="http://player.vimeo.com/video/45125900" frameborder="0"></iframe>
+                        <p>Axis interview Jane Wilde &amp; Adrian Lear</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="row">
         <div class="span12">
             <div class="row">
                 <div class="span6">
@@ -72,8 +68,6 @@ include_once "inc/header.html";
                 </div>
             </div>
         </div>
-    </div>
-</div><!-- end container-->
-
-
+    </section>
+</div>
 <?php include_once "inc/footer.html"; ?>

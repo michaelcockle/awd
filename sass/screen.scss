@@ -179,8 +179,35 @@ iframe {
 
 // html { height: 100% }
 // body { height: 100%; margin: 0; padding: 0 }
-#map_canvas { height: 300px; width:400px;  }
-#pano { height: 300px; width:400px;  }
+
+#map {
+    // @include leader(1);
+    @include trailer(1);
+    // @include leading-border($width: 1px, $lines: 1, $font-size: $base-font-size, $border-style: dotted);
+}
+
+#map_canvas { 
+    height: 300px;
+    width:460px;
+}
+
+#pano { 
+    height: 300px;
+    width:460px;
+}
+
+
+#contactBtn {
+    width: 33.3% !important;
+    float: right;
+    background: none;
+    background: $grayLight;
+    text-shadow: none;
+    color: white;
+    box-shadow: none;
+    border-radius: none;
+}
+
 
 
 // @-moz-document url-prefix() { 
@@ -451,7 +478,7 @@ bottom: -56px;
 }
 
 #options {
-  @include leader(1);
+  // @include leader(1);
   @include trailer(1);
 
   li {
@@ -796,6 +823,14 @@ bottom: -56px;
   text-align:center;
 }
 
+.slider-services figcaption { 
+  font-weight:bold;
+  text-align:center;
+  @include leader(.5); 
+    @include trailer(.5);
+}
+
+
 nav a, img {
   -webkit-transition-property: background-color, color;
   -webkit-transition-duration: .4s;
@@ -807,11 +842,11 @@ a:hover {
 }
 
 ::selection {
-  background: $red;
+  background: lighten($red, 15%);;
   color: #fff; 
 }
 ::-moz-selection {
-  background: $red;
+  background: lighten($red, 15%);;
   color: #fff;
 }
 

@@ -5,32 +5,23 @@ $page_description = "";
 include_once "inc/header.html";
 ?>
 
-
-
-<div id="content" class="container">
-    <div class="row">
-        <div class="span12">
-                <h1><?php echo $page_title; ?></h1>
-                    <!-- <h2>Developing Digital Content</h2> -->
-                <div class="imgSlider flexslider">
-                    <ul class="slides">
-                        <li>
-                            <img src="img/work/contemporary-arts-north-east-workshop.jpg" alt="Contemporary Arts North East workshop">
-                        </li>
-                    </ul>
-                </div>
-        </div>
-    </div>
-</div>
-
-<!-- Great Ormond Street Hospital -->
 <div class="container">
-    <div class="row">
+    <section class="row">
+        <div class="span12">
+            <h1><?php echo $page_title; ?></h1>
+            <div class="imgSlider flexslider">
+                <ul class="slides">
+                    <li>
+                        <img src="img/work/contemporary-arts-north-east-workshop.jpg" alt="Contemporary Arts North East workshop">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="row">
         <div class="span12">
             <div class="row">
                 <div class="span6">
-                    <!-- Develop digital content -->
-
                     <h4>The Brief:</h4>
                         <p>Run a practical and inspirational seminar for the Contemporary Visual Arts Network in the North East about how to create better content for the web.</p>
                     
@@ -38,7 +29,7 @@ include_once "inc/header.html";
                         <p>We designed a series of presentations and activities aimed at helping curators and marketing professionals think carefully about the needs of their online audience. </p>
 
                         <p>Topics covered included user journeys, analytics, search engine optimisation, writing for the web and emerging trends in web technology. Emma Hutson, a former digital producer with the BBC, contributed particular expertise around commissioning and creating film.</p>
-                        </div>
+                </div>
                 <div class="span6">
                     <blockquote>
                         <h5>Quote:</h5>
@@ -48,8 +39,6 @@ include_once "inc/header.html";
                 </div>                
             </div>
         </div>
-    </div>
-</div><!-- end container-->
-
-
+    </section>
+</div>
 <?php include_once "inc/footer.html"; ?>

@@ -5,8 +5,8 @@ $page_description = "";
 include_once "inc/header.html";
 ?>
 
-<div id="content" class="container">
-    <div class="row">
+<div class="container">
+    <section class="row">
         <div class="span12">
             <h1><?php echo $page_title; ?></h1>
             <h2>Website, Mobile</h2>
@@ -27,14 +27,11 @@ include_once "inc/header.html";
                     <li>
                         <img src="img/work/ways-of-looking-4.jpg" alt="Ways of Looking 4">
                     </li>
-                    
                 </ul>
             </div>
         </div>
-    </div>
-</div>
-<div class="container">
-    <div class="row">
+    </section>
+    <section class="row">
         <div class="span12">
             <div class="row">
                 <div class="span6">
@@ -47,9 +44,8 @@ include_once "inc/header.html";
                     <p>We re-skinned the Art in Yorkshire website and iPhone App to create a comprehensive ‘what’s on’ festival guide, with plenty of visual, written and media-rich content to keep users browsing. </p>
                     <p>The design made striking use of colour, contrast and type to make a bold visual statement and create a dramatic showcase for the content.</p>
                 </div>
-                
             </div>
         </div>
-    </div>
-</div><!-- end container-->
+    </section>
+</div>
 <?php include_once "inc/footer.html"; ?>

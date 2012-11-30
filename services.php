@@ -6,9 +6,7 @@ $page_state = $_GET['page-state'];
 include_once "inc/header.html";
 ?>
 
-<div id="content" class="container" data-slidenumber="<?php echo $page_state; ?>">
-	
-	<!-- <h1><?php echo $page_title; ?></h1> -->
+<div class="container" data-slidenumber="<?php echo $page_state; ?>">
 	<div class="row-fluid">
 		<div class="span12">
 			<h2 class="strapline">We work across a broad range of digital disciplines to connect artists and arts organisations with audiences.</h2>
@@ -18,36 +16,48 @@ include_once "inc/header.html";
 					<div class="row-fluid">
 					
 						<a class="span4 retain-width" id="servBtn1" href="#">
-							<img src="img/home/thumbs/web.gif" alt="Web">
-							<p>Web</p>
+							<figure>
+								<img src="img/home/thumbs/web.gif" alt="Web">
+								<figcaption>Web</figcaption>
+							</figure>
 						</a>
 						
 						<a class="span4 retain-width" id="servBtn2" href="#">
-							<img src="img/home/thumbs/film.gif" alt="Films">
-							<p>Films</p>
+							<figure>
+								<img src="img/home/thumbs/film.gif" alt="Films">
+								<figcaption>Films</figcaption>
+							</figure>
 						</a>
 						
 						<a class="span4 retain-width" id="servBtn3" href="#">
-							<img src="img/home/thumbs/strategy.gif" alt="Strategy">
-							<p>Strategy</p>
+							<figure>
+								<img src="img/home/thumbs/strategy.gif" alt="Strategy">
+								<figcaption>Strategy</figcaption>
+							</figure>
 						</a>
 
 					</div>
 					<div class="row-fluid">
 						
 						<a class="span4 retain-width" id="servBtn5" href="#">
-							<img src="img/home/thumbs/mobile.gif" alt="Mobile">
-							<p>Mobile</p>
+							<figure>
+								<img src="img/home/thumbs/mobile.gif" alt="Mobile">
+								<figcaption>Mobile</figcaption>
+							</figure>
 						</a>
 						
 						<a class="span4 retain-width" id="servBtn6" href="#">
-							<img src="img/home/thumbs/special.gif" alt="Interactive">
-							<p>Interactive</p>
+							<figure>
+								<img src="img/home/thumbs/special.gif" alt="Interactive">
+								<figcaption>Interactive</figcaption>
+							</figure>
 						</a>
 						
 						<a class="span4 retain-width" id="servBtn4" href="#">
-							<img src="img/home/thumbs/training.gif" alt="Training">
-							<p>Training</p>
+							<figure>
+								<img src="img/home/thumbs/training.gif" alt="Training">
+								<figcaption>Training</figcaption>
+							</figure>
 						</a>
 					</div>
 						

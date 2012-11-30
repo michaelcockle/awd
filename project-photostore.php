@@ -5,8 +5,8 @@ $page_description = "";
 include_once "inc/header.html";
 ?>
 
-<div id="content" class="container">
-    <div class="row">
+<div class="container">
+    <section class="row">
         <div class="span12">
             <h1><?php echo $page_title; ?></h1>
             <h2>Web, Strategy</h2>
@@ -22,13 +22,10 @@ include_once "inc/header.html";
                 </ul>
             </div>
         </div>
-    </div>
-</div>
+    </section>
 
-<div class="container">
-    <div class="row">
+    <section class="row">
         <div class="span12">
-
             <div class="row">
                 <div class="span6">
                     <h4>The Brief:</h4>
@@ -52,6 +49,6 @@ include_once "inc/header.html";
                 </div>  
             </div>
         </div>
-    </div>
-</div><!-- end container-->
+    </section>
+</div>
 <?php include_once "inc/footer.html"; ?>

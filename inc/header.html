@@ -30,11 +30,11 @@
 	  $page = basename($path);
 	  $page = basename($path, '.php');
 	  ?>
-	<?php include_once "inc/analyticstracking.php"; ?>
 
 </head>  
   
-<body onload="initialize()" >
+<body>
+<?php include_once "inc/analyticstracking.php"; ?>
 
 <div id="envelope"  class="<?php echo 'page-'.$page; ?> <?php echo $page_extra; ?>">
 
