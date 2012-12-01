@@ -1,9 +1,9 @@
-/* line 61, ../../../../Ruby/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 61, ../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 * html {
   font-size: 100%;
 }
 
-/* line 64, ../../../../Ruby/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 64, ../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 16px;
   line-height: 1.5em;
@@ -1809,11 +1809,9 @@ legend + .control-group {
 
 /* line 27, ../sass/bootstrap/_sprites.scss */
 .awd-icons {
-  margin: 0;
   padding: 0;
   float: left;
   position: relative;
-  top: 5px;
 }
 /* line 44, ../sass/bootstrap/_sprites.scss */
 .awd-icons li {
@@ -3827,7 +3825,7 @@ body.ie7 .navbar-inner {
 .navbar .brand {
   float: left;
   display: block;
-  margin: 1em 2em 0.5em 0;
+  margin: 0 2em 0.5em 0;
   /*  
     h2 {
       font-weight:400;
@@ -4384,6 +4382,7 @@ body.ie7 nav, body.ie8 nav {
 .navbar-inverse .navbar-inner {
   background: #FFF;
   border-bottom: dotted 1px #FF3C1E;
+  padding: 1em 0 2em;
 }
 
 /* line 9, ../sass/bootstrap/_thumbnails.scss */
