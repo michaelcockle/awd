@@ -8,8 +8,8 @@ include_once "inc/header.html";
 <div class="container">
     <section class="row">
         <div class="span12">
-            <h1><?php echo $page_title; ?></h1>
-            <h2>Web, Strategy</h2>
+            <h1><?php include "inc/breadcrumb.php"; ?> <?php echo $page_title; ?>  <small>( Web )</small></h1>
+            <!-- <h2>Web, Strategy</h2> -->
             <div class="imgSlider flexslider">
                 <ul class="slides">
                     <li>

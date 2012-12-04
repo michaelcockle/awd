@@ -6638,3 +6638,8 @@ a:hover {
   font-size: 0.875em;
   line-height: 1.71429em;
 }
+
+/* line 866, ../sass/screen.scss */
+.breadcrumb {
+  font-family: "Droid Sans", Arial, sans-serif;
+}
