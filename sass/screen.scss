@@ -93,13 +93,19 @@
   border:none;
 }
 
+
 .page-services {
-  img {
-    max-height: 180px;
-    border: solid 4px $grayDark;
-    &:hover {
-      border: solid 4px #FFF;
-      outline: solid 2px $redDark;
+  .slider-services {
+    a {
+      img {
+        @include box-sizing(border-box); // Prevent border from infringing on the padding
+        max-height: 180px;
+        border: solid 4px $grayDark;
+        &:hover {
+          border: solid 4px #FFF;
+          outline: solid 2px $redDark;
+        }
+      }
     }
   }
   .slider-services {

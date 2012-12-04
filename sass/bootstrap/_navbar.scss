@@ -24,8 +24,8 @@
 }
 $twelve:134px;
 $nine:128px;
-$seven:156px;
-$six:166px;
+$seven:78px;
+$six:78px;
 $four:100px;
 
 body {
@@ -139,7 +139,7 @@ body.ie7 .navbar-inner {
 .navbar .brand {
   float: left;
   display: block;
-  margin: 0 2em 0.5em 0;
+  margin: 0 2em 1em 0;
   
   // background: #ccc;
   // padding: 0;
@@ -388,6 +388,11 @@ body.ie7 .navbar-inner {
 
 // NAVIGATION
 // ----------
+
+#main-nav {
+  margin-top: 0.5em;
+}
+
 
 .navbar .nav {
   position: relative;
@@ -695,7 +700,7 @@ body.ie7 nav, body.ie8 nav {
   background: #FFF;
   // border-bottom: solid 1px #E8E8E8;
   border-bottom: dotted 1px #FF3C1E;
-  padding: 1em 0 2em;
+  padding: 1em 0 0em;
 }
 // #main-nav {clear:both;}
 

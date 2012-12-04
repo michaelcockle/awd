@@ -3,11 +3,20 @@
 
 // TABLETS AND BELOW 
 // -----------------
-@media (max-width: 480px) {
+@media (max-width: 769px) {
 
   .awd-icons {
-    display:none;
+    // display: none;
+    margin: 0.5em 0 0 1.5em;
+    
+     li {
+      // display:none;
+      float: none;
+      line-height: 1.71429em !important; // reset back to normal from sprites 
+      @media (max-width: 490px) { display: none;}
+    }
   }
+
 
   // UNFIX THE TOPBAR  ----------------
   body {

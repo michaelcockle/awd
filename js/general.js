@@ -434,59 +434,45 @@ window.onresize = function() {
 
 
 
-$(window).resize(function() {
-    var winWidth = 	$(this).width();
-    var winHeight = $(this).height();
-    //console.log(winWidth);
-    //console.log(winHeight);
-	$("#width").text(' ' + winWidth);
-    $("#height").text(' | ' + winHeight);
 
-    if (winWidth > 1 ) {
-    	
-    	$("#msg").text(' Portrait Phones');
-    }
 
-    if (winWidth > 481) {
-    	$("#msg").text(' Landscape Phones');
-    	
-    }
 
-    if (winWidth > 767) {
-    	$("#msg").text(' Landscape Phone - (Portrait Tablet) ');
-    }
 
-    if (winWidth > 980) {
-    	$("#msg").text(' | Desktop');
-    }
 
-    if (winWidth > 1200) {
-    	$("#msg").text('| Large Desktop');
-    }
-    $('#msg').css('color','#FF3C1E').css('font-weight','bold');
-});
+
+
+
+
+
 
 
 
 /*
 if (winWidth < 980) {
-    	//$("#msg").text('< 980');
-    	
-    	
-    	$('span#A').text('Axis');
-    	$('span#W').text('web');
-    	$('span#D').text(' Developments');
-    	$('span#A').css('color', 'blue');
-    	
+        //$("#msg").text('< 980');
+        
+        
+        $('span#A').text('Axis');
+        $('span#W').text('web');
+        $('span#D').text(' Developments');
+        $('span#A').css('color', 'blue');
+        
     }
     if (winWidth > 980) {
 
-    	$("#msg").text('');
-    	$('span#A').text('A');
-    	$('span#W').text('W');
-    	$('span#D').text('D');
+        $("#msg").text('');
+        $('span#A').text('A');
+        $('span#W').text('W');
+        $('span#D').text('D');
     }
 */
+
+
+
+
+
+
+
 
 
 
@@ -535,7 +521,68 @@ if (winWidth < 980) {
 
 
 $(document).ready(function(){
-		
+    $(window).bind("load resize", function(){
+        var winWidth =  $(this).width();
+        var winHeight = $(this).height();
+        //console.log(winWidth);
+        //console.log(winHeight);
+        $("#width").text(' ' + winWidth);
+        $("#height").text(' | ' + winHeight);
+
+        if (winWidth > 1 ) {
+            
+            $("#msg").text(' Portrait Phones');
+        }
+
+        if (winWidth > 481) {
+            $("#msg").text(' Landscape Phones');
+            
+        }
+
+        if (winWidth > 767) {
+            $("#msg").text(' Landscape Phone - (Portrait Tablet) ');
+        }
+
+        if (winWidth > 980) {
+            $("#msg").text(' | Desktop');
+        }
+
+        if (winWidth > 1200) {
+            $("#msg").text('| Large Desktop');
+        }
+        $('#msg').css('color','#FF3C1E').css('font-weight','bold');
+
+        // ------------------------------------------
+        if (winWidth <= 979) {
+            $('.awd-icons').css('display','block');
+            $('.awd-icons').detach().appendTo($('#attach-icons1'));
+        } else if (winWidth > 979) {
+            $('.awd-icons').detach().appendTo($('#attach-icons2'));
+        }
+
+    });
+
+
+
+/*$(window).sizeFunc*/
+
+
+/*$(window).resize(function()  {
+    sizeFunc();
+}
+
+$(window).load(function()  {
+    sizeFunc();
+}
+*/
+
+
+
+
+
+
+
+
 	// Hover Panels put before slide scroller
 	// set up hover panels can be done without JS, events causes hover to be triggered when element tapped on touch device
 	$('.hover').hover(function(){

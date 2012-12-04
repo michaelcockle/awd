@@ -26,9 +26,11 @@
 
 .awd-icons {
   // margin: 0;
+  margin-left: 0;
   padding: 0;
   float: left;
   position:relative;
+  @include trailer(1);
   // top:5px;
 
   // i {
@@ -43,18 +45,22 @@
   
   li {
     float: left;
-    padding-right: 1em;
+    line-height: 1.2em !important; // override vrthym
+    @include adjust-font-size-to(14px);
+    padding-right: 1em; font-weight: $boldFontWeight;
+    &:first-child { font-family: $serifFontFamily; }
+    a {font-weight: $baseFontWeight;  }
+    // @media (max-width: 769px) {
+    //   float: none;
+    // }
   }
-  .mail {
-    width: 32px; 
-    background-position:0 0;
-  }
-  .tel {
-    background-position:-53px 0;
-  }
-  @media (max-width: 979px) {
-    display:none;
-  }
+  // .mail {
+  //   width: 32px; 
+  //   background-position:0 0;
+  // }
+  // .tel {
+  //   background-position:-53px 0;
+  // }
 }
 
 
