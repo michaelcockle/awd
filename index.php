@@ -14,7 +14,7 @@ include_once "inc/header.html";
             <div id="rowTop" class="row-fluid"> 
             
                     <!-- WEB -->
-                <a class="span4 home-thumb2" href="project-cane-web.php">
+                <a class="span4 home-thumb2" href="work.php?page-state=web">
                     <figure>
                         <img src="img/home/thumbs/axisweb-web.jpg" alt="Web Design &amp; Development">
                         <figcaption class="home-thumb-text">
@@ -62,7 +62,7 @@ include_once "inc/header.html";
                 </a>
 
                     <!-- MOBILE -->
-                <a class="span4 home-thumb2" href="project-art-in-yorkshire.php?page-state=2">
+                <a class="span4 home-thumb2" href="work.php?page-state=mobile">
                     <figure><img src="img/home/thumbs/axisweb-mobile.jpg" alt="Mobile App development">
                         <figcaption class="home-thumb-text">
                             <h2>Mobile</h2><br>
@@ -74,7 +74,7 @@ include_once "inc/header.html";
 
                     <!-- INTERATIVE -->
 
-                <a class="span4 home-thumb2" href="project-great-ormand-street.php">
+                <a class="span4 home-thumb2" href="work.php?page-state=interactive">
                     <figure><img src="img/home/thumbs/digital.gif" alt="Interactive">
                         <figcaption class="home-thumb-text">
                             <h2>Interactive</h2><br>

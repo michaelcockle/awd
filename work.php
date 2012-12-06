@@ -182,65 +182,7 @@ include_once "inc/header.html";
 */
 
     // bUTTONS 
-    $('#btnProjCane').click(function (e) {
-        e.preventDefault();
-        window.location = "project-cane-web.php";
-    });
-
-    $('#btnProjOwnArt').click(function (e) {
-    e.preventDefault();
-    window.location = "project-own-art-films.php";
-    });
-
-    $('#btnProjOrmand').click(function (e) {
-    e.preventDefault();
-    window.location = "project-great-ormand-street.php";
-    });    
-
-    $('#btnProjDigYork').click(function (e) {
-    e.preventDefault();
-    window.location = "project-dig-yorkshire.php";
-    });
-
-    $('#btnProjCane2').click(function (e) {
-    e.preventDefault();
-    window.location = "project-contemporary-art-north-east-workshop.php";
-    });
-
-    $('#btnProjApn').click(function (e) {
-    e.preventDefault();
-    window.location = "project-all-points-north.php";
-    });
-
-    $('#btnProjWaysLook').click(function (e) {
-    e.preventDefault();
-    window.location = "project-ways-of-looking.php";
-    });
-
-    $('#btnProjHouton').click(function (e) {
-    e.preventDefault();
-    window.location = "project-mark-houton.php";
-    });
-
-    $('#btnProjArtYork').click(function (e) {
-    e.preventDefault();
-    window.location = "project-art-in-yorkshire.php";
-    });
-
-    $('#btnProjPhoto').click(function (e) {
-    e.preventDefault();
-    window.location = "project-photostore.php";
-    });
-
-    $('#btnProjCollectors').click(function (e) {
-    e.preventDefault();
-    window.location = "project-meet-the-collectors.php";
-    });
-
-    $('#btnProjSceneCentral').click(function (e) {
-    e.preventDefault();
-    window.location = "project-scene-central.php";
-    });
+   
 
 
 

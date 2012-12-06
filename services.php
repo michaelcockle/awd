@@ -92,7 +92,7 @@ include_once "inc/header.html";
 
 							<p>Our filmmaking team can help you develop the initial concept and carry out all aspects of production, whether it's a short two-minute film or a series of in-depth case studies. </p>
 
-							<p>We use the latest filmmaking technology including state-of- the-art HDLSR cameras that shoot Full HD footage, providing rich, 'filmic' visuals to ensure your project stands out.</p>
+							<p>We use the latest filmmaking technology including state-of- the-art HDSLR cameras that shoot Full HD footage, providing rich, 'filmic' visuals to ensure your project stands out.</p>
 
 							<h3>See our work:</h3>
 

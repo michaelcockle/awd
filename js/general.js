@@ -935,21 +935,7 @@ var update_children_slides = function (slide_number){
 		$('input[placeholder], textarea[placeholder]').placeholder();
 		$('.page-contact label').hide();
 
-
-
-
-        $('.container').fitVids();
-
-
-
-
-
-
-
-
-
-
-
+    $('.container').fitVids();
 
 
 
