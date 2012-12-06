@@ -2,21 +2,27 @@
 $page_title = "Work";
 $page_extra = "work";
 $page_description = "";
+//$page_state = $_GET['page-state'];
 include_once "inc/header.html";
 ?>
 
+
+
+
+
 <div class="container">
+
     <div class="row">
         <section id="options" class="span12">
         <h2 class="strapline">Here’s a selection of our work. And please <a href="/contact.php">get in touch</a> if you’d like to know more.</h2>
           <ul id="filters" class="option-set clearfix" data-option-key="filter">
             <li><a href="#filter" data-option-value="*" class="selected">All</a></li>
             <li><a href="#filter" data-option-value=".web">Web</a></li>
-            <li><a href="#filter" data-option-value=".mobile">Mobile</a></li>
-            <li><a href="#filter" data-option-value=".strategy">Strategy</a></li>
+            <li><a id="mob" href="#filter" data-option-value=".mobile">Mobile</a></li>
+            <!-- <li><a href="#filter" data-option-value=".strategy">Strategy</a></li> -->
             <li><a href="#filter" data-option-value=".training">Training</a></li>
             <li><a href="#filter" data-option-value=".film">Film</a></li>
-            <li><a href="#filter" data-option-value=".interactive">Digital exhibition</a></li>
+            <li><a href="#filter" data-option-value=".interactive">Interactive</a></li>
           </ul>
         </section>
     </div>  
@@ -92,7 +98,155 @@ include_once "inc/header.html";
     </div>
 </div>
 
-<script src="js/jquery.isotope.min.js" defer="defer"></script>
+<!-- <script src="js/jquery.isotope.min.js" defer="defer"></script> -->
+<script src="js/jquery.isotope.min.js"></script>
+<script type="text/javascript">
+
+/*
+        function getUrlVars()
+          {
+              var vars = [], hash;
+              var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+              for(var i = 0; i < hashes.length; i++)
+              {
+                  hash = hashes[i].split('=');
+                  vars.push(hash[0]);
+                  vars[hash[0]] = hash[1];
+              }
+              return vars;
+          }
+
+
+        // Function to get query string from home page to set filters ----------
+        function getParameterByName(name)
+        {
+          name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+          var regexS = "[\\?&]" + name + "=([^&#]*)";
+          var regex = new RegExp(regexS);
+          var results = regex.exec(window.location.search);
+          if(results == null)
+            return "";
+          else
+            return decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+
+
+
+        $(function(){
+              
+            var $container = $('#container');
+
+            $container.isotope({
+              itemSelector : '.element'
+            });
+            
+            var $optionSets = $('#options .option-set'), $optionLinks = $optionSets.find('a');
+
+            $optionLinks.click(function(){
+              var $this = $(this);
+              // don't proceed if already selected
+              if ( $this.hasClass('selected') ) {
+                return false;
+              }
+              var $optionSet = $this.parents('.option-set');
+              $optionSet.find('.selected').removeClass('selected');
+              $this.addClass('selected');
+
+              // make option object dynamically, i.e. { filter: '.my-filter-class' }
+              var options = {},
+                  key = $optionSet.attr('data-option-key'),
+                  value = $this.attr('data-option-value');
+              // parse 'false' as false boolean
+              value = value === 'false' ? false : value;
+              options[ key ] = value;
+              if ( key === 'layoutMode' && typeof changeLayoutMode === 'function' ) {
+                // changes in layout modes need extra logic
+                changeLayoutMode( $this, options )
+              } else {
+                // otherwise, apply new options
+                $container.isotope( options );
+              }
+
+              return false;
+
+
+               
+                    //var getQueryString = getUrlVars()["page-state"];
+                    //console.log(getQueryString);
+               
+                var filterFromQuerystring = 'film'; // getParameterByName('filter'); data-slidenumber="<?php echo $page_state; ?>"
+                $('a[data-option-value=".' + filterFromQuerystring  + '"]').click();
+              
+        });
+
+*/
+
+    // bUTTONS 
+    $('#btnProjCane').click(function (e) {
+        e.preventDefault();
+        window.location = "project-cane-web.php";
+    });
+
+    $('#btnProjOwnArt').click(function (e) {
+    e.preventDefault();
+    window.location = "project-own-art-films.php";
+    });
+
+    $('#btnProjOrmand').click(function (e) {
+    e.preventDefault();
+    window.location = "project-great-ormand-street.php";
+    });    
+
+    $('#btnProjDigYork').click(function (e) {
+    e.preventDefault();
+    window.location = "project-dig-yorkshire.php";
+    });
+
+    $('#btnProjCane2').click(function (e) {
+    e.preventDefault();
+    window.location = "project-contemporary-art-north-east-workshop.php";
+    });
+
+    $('#btnProjApn').click(function (e) {
+    e.preventDefault();
+    window.location = "project-all-points-north.php";
+    });
+
+    $('#btnProjWaysLook').click(function (e) {
+    e.preventDefault();
+    window.location = "project-ways-of-looking.php";
+    });
+
+    $('#btnProjHouton').click(function (e) {
+    e.preventDefault();
+    window.location = "project-mark-houton.php";
+    });
+
+    $('#btnProjArtYork').click(function (e) {
+    e.preventDefault();
+    window.location = "project-art-in-yorkshire.php";
+    });
+
+    $('#btnProjPhoto').click(function (e) {
+    e.preventDefault();
+    window.location = "project-photostore.php";
+    });
+
+    $('#btnProjCollectors').click(function (e) {
+    e.preventDefault();
+    window.location = "project-meet-the-collectors.php";
+    });
+
+    $('#btnProjSceneCentral').click(function (e) {
+    e.preventDefault();
+    window.location = "project-scene-central.php";
+    });
+
+
+
+</script>
+
+
 <?php include_once "inc/footer.html"; ?>
 
 

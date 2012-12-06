@@ -30,17 +30,18 @@ include_once "inc/header.html";
                         <img src="img/home/thumbs/strategy.gif" alt="Strategy">
                         <figcaption class="home-thumb-text">
                             <h2>Strategy</h2><br>
-                            <p>Clear guidance in a fast-changing digital world</p>
+                            <p>Clear thinking in a fast changing digital world</p>
                         </figcaption>
                     </figure>
                 </a>
 
-                    <!-- FILM -->
-                <a class="span4 home-thumb2" href="project-own-art-films.php">
+                    <!-- FILM href="project-own-art-films.php?film -->
+                <a class="span4 home-thumb2" href="work.php?page-state=film" >
                     <figure><img src="img/home/thumbs/axisweb-films.jpg" alt="Films">
                        <figcaption class="home-thumb-text">
                             <h2>Film</h2><br>
-                            <p>Series of short films for Own Art</p>
+                            <p>Films that engage, inform, provoke and inspire</p>
+                            <!-- <p>Series of short films for Own Art</p> -->
                         </figcaption>
                     </figure>
                 </a>
@@ -54,17 +55,19 @@ include_once "inc/header.html";
                     <figure><img src="img/home/thumbs/training.gif" alt="Training">
                         <figcaption class="home-thumb-text">
                             <h2>Training</h2><br>
-                            <p>Understanding the nuts and bolts of digital</p>
+                            <p>Helping understand the nuts and bolts of digital</p>
+                            <!-- <p>Understanding the nuts and bolts of digital</p> -->
                         </figcaption>
                     </figure>
                 </a>
 
                     <!-- MOBILE -->
-                <a class="span4 home-thumb2" href="project-art-in-yorkshire.php">
+                <a class="span4 home-thumb2" href="project-art-in-yorkshire.php?page-state=2">
                     <figure><img src="img/home/thumbs/axisweb-mobile.jpg" alt="Mobile App development">
                         <figcaption class="home-thumb-text">
                             <h2>Mobile</h2><br>
-                            <p>Award-winning Art in Yorkshire</p>
+                            <p>Developing a mobile approach</p>
+                            <!-- <p>Award-winning Art in Yorkshire</p> -->
                         </figcaption>
                     </figure>
                 </a>
@@ -75,7 +78,8 @@ include_once "inc/header.html";
                     <figure><img src="img/home/thumbs/digital.gif" alt="Interactive">
                         <figcaption class="home-thumb-text">
                             <h2>Interactive</h2><br>
-                            <p>Great Ormond Street Hospital digital exhibition</p>
+                            <p>Beyond the desktop, other digital stuff</p>
+                            <!-- <p>Great Ormond Street Hospital digital exhibition</p> -->
                         </figcaption>
                     </figure>
                 </a>

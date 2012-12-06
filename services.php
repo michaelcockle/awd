@@ -62,8 +62,6 @@ include_once "inc/header.html";
 					</div>
 						
 				</div>
-				
-			
 
 				<div id="serviceSlider" class="span6 flexslider">
 
@@ -123,15 +121,12 @@ include_once "inc/header.html";
                         	
                         </li>
 
-
-
                         <li>
                             <h2>Training</h2>
 
 							<p>We help you use digital technology to transform and expand your offer. We believe that if people in the arts understand the nuts and bolts of digital, you will make better decisions and reap the benefit. </p>
 
 							<p>We can tailor workshops and training events to any size of group or organisational requirement. Topics we can cover include:</p>
-
 
 							<ul>
 								<li>Understanding your audience</li>
@@ -144,8 +139,6 @@ include_once "inc/header.html";
 							</ul>
 
 							<p>Our workshops are for individuals and organisations in the arts - in fact anybody who is interested in developing digital solutions to support their business aims and artistic programme.</p>
-
-
 
 							<h3>See our work:</h3>
 							<a href="http://awd.axisweb.org/project-contemporary-art-north-east-workshop.php">Value Added: making and presenting content for the web</a>
@@ -174,10 +167,10 @@ include_once "inc/header.html";
 							<p>If you are looking for alternative ways to deliver or manage your interaction with audiences, we can help. From developing and delivering a digital programme of content, screen-based exhibitions, stand-alone kiosks or viral marketing campaign, we can create something for you.</p>
 
 							<h3>See our work:</h3>
-								<ul>
-									<li><a href="/project-great-ormand-street.php">Great Ormond Street Hospital</a></li>
-									<li><a href="/project-art-in-yorkshire.php">Art in Yorkshire</a></li>
-								</ul>
+							<ul>
+								<li><a href="/project-great-ormand-street.php">Great Ormond Street Hospital</a></li>
+								<li><a href="/project-art-in-yorkshire.php">Art in Yorkshire</a></li>
+							</ul>
                         </li>
                     </ul>
 				</div>
