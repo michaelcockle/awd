@@ -14,7 +14,7 @@ include_once "inc/header.html";
             <div id="rowTop" class="row-fluid"> 
             
                     <!-- WEB -->
-                <a class="span4 home-thumb2" href="work.php?page-state=web">
+                <a class="span4 home-thumb2" href="work-test.php?page-state=web">
                     <figure>
                         <img src="img/home/thumbs/axisweb-web.jpg" alt="Web Design &amp; Development">
                         <figcaption class="home-thumb-text">
@@ -27,7 +27,7 @@ include_once "inc/header.html";
                     <!-- STRATEGY -->
                 <a class="span4 home-thumb2" href="services.php?page-state=2">
                     <figure>
-                        <img src="img/home/thumbs/strategy.png" alt="Strategy">
+                        <img src="img/home/thumbs/strategy.gif" alt="Strategy">
                         <figcaption class="home-thumb-text">
                             <h2>Strategy</h2><br>
                             <p>Clear thinking in a fast changing digital world</p>
@@ -36,7 +36,7 @@ include_once "inc/header.html";
                 </a>
 
                     <!-- FILM href="project-own-art-films.php?film -->
-                <a class="span4 home-thumb2" href="work.php?page-state=film" >
+                <a class="span4 home-thumb2" href="work-test.php?page-state=film" >
                     <figure><img src="img/home/thumbs/axisweb-films.jpg" alt="Films">
                        <figcaption class="home-thumb-text">
                             <h2>Film</h2><br>
@@ -51,8 +51,8 @@ include_once "inc/header.html";
             <div id="rowBottom" class="row-fluid"> 
 
                     <!-- TRAINING -->
-                <a class="span4 home-thumb2" href="services.php?page-state=3">
-                    <figure><img src="img/home/thumbs/training.png" alt="Training">
+                <a class="span4 home-thumb2" href="">
+                    <figure><img src="img/home/thumbs/training.gif" alt="Training">
                         <figcaption class="home-thumb-text">
                             <h2>Training</h2><br>
                             <p>Helping understand the nuts and bolts of digital</p>
@@ -62,7 +62,7 @@ include_once "inc/header.html";
                 </a>
 
                     <!-- MOBILE -->
-                <a class="span4 home-thumb2" href="work.php?page-state=mobile">
+                <a class="span4 home-thumb2" href="work-test.php?page-state=mobile">
                     <figure><img src="img/home/thumbs/axisweb-mobile.jpg" alt="Mobile App development">
                         <figcaption class="home-thumb-text">
                             <h2>Mobile</h2><br>
@@ -74,8 +74,8 @@ include_once "inc/header.html";
 
                     <!-- INTERATIVE -->
 
-                <a class="span4 home-thumb2" href="work.php?page-state=interactive">
-                    <figure><img src="img/home/thumbs/digital.png" alt="Interactive">
+                <a class="span4 home-thumb2" href="work-test.php?page-state=interactive">
+                    <figure><img src="img/home/thumbs/digital.gif" alt="Interactive">
                         <figcaption class="home-thumb-text">
                             <h2>Interactive</h2><br>
                             <p>Beyond the desktop, other digital stuff</p>

@@ -31,7 +31,7 @@ include_once "inc/header.html";
 						
 						<a class="span4 retain-width" id="servBtn3" href="#">
 							<figure>
-								<img src="img/home/thumbs/strategy.png" alt="Strategy">
+								<img src="img/home/thumbs/strategy.gif" alt="Strategy">
 								<figcaption>Strategy</figcaption>
 							</figure>
 						</a>
@@ -55,7 +55,7 @@ include_once "inc/header.html";
 						
 						<a class="span4 retain-width" id="servBtn4" href="#">
 							<figure>
-								<img src="img/home/thumbs/training.png" alt="Training">
+								<img src="img/home/thumbs/training.gif" alt="Training">
 								<figcaption>Training</figcaption>
 							</figure>
 						</a>
